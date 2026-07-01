@@ -6,7 +6,8 @@ on:
       - main
     paths:
       - "spark-demo/advance-spark.ipynb"
-      workflow_dispatch:
+
+  workflow_dispatch:
 
 jobs:
   deploy:
